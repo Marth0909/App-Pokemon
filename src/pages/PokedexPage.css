@@ -1,0 +1,120 @@
+
+.pokedex__info {
+    background: #fff;
+    width: 100%;
+    margin-top: 5em;
+    
+}
+
+.pokedex__welcome {
+    color: #FE1936 !important;
+    font-weight: 700;
+    font-size: 1rem;
+   
+}
+
+.pokedex__welcome-pok {
+    font-weight: 500;
+    color: #333333;
+    font-size: 1rem;
+}
+
+.pokedex__form {
+    margin-top: 2em;
+    margin-left: 4rem;
+}
+
+.pokedex__name-pokemon {
+    width: 30em; 
+    height: 2.4em; 
+    padding: 0.8em; 
+    border: none;
+    box-shadow: 2px 1px #c2bbbb;
+}
+
+.pokedex__button-search {
+    width: 10em; 
+    height: 2.5em; 
+    border: none;
+    background: #D93F3F;
+    color: #FFFFFF;
+    font-weight: 400; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.pokedex__header-container {
+    text-align: left;
+}
+
+
+.pokedex__logoheader {
+    max-height: 100%;
+    margin-left: 4rem;
+    margin-top: -4.2rem;
+    width: 15rem;
+    z-index: 1;
+   
+    
+}
+
+
+.pokedex__header-red {
+    height: 2.8em; 
+    background-color: #DD1A1A;
+    
+    
+}
+
+
+.pokedex__header-black {
+    height: 1.3em; 
+    background-color: #0C0C0C;
+    right: 0;
+   
+}
+
+.pokedex__header-circlecontainer {
+    position: relative;
+}
+
+.pokedex__header-circleE {
+    width: 50px;
+    height: 50px;
+    border: 6px solid #0C0C0C;
+    border-radius: 50%;
+    background-color: rgb(224, 220, 220);
+    position: absolute;
+    top: -37px;
+    left: 95%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokedex__header-circleI {
+    width: 25px;
+  height: 25px;
+  border: 5px solid #0C0C0C;
+  ;
+  border-radius: 50%;
+  background-color: rgb(35, 33, 33);
+}
+
+.pokedex__card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem; /* Espacio entre las tarjetas */
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  
+  /* Estilos para cada tarjeta PokeCard dentro del contenedor */
+  .pokedex__card-container > * {
+    flex-basis: calc(20%); /* Ajusta el ancho de las tarjetas y el espacio entre ellas */
+  }

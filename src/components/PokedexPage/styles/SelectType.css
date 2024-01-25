@@ -1,0 +1,26 @@
+.select__container {
+    text-align: right; 
+    margin-top: -2rem;
+    margin-right: 11rem; 
+    
+}
+
+
+.selectype__select {
+    border: none;  
+    border-color: #FFFFFF;
+    width: 24rem; 
+    height: 2rem; 
+    background: #fcf9f9;
+    color: #0F0F2D;
+   
+}
+
+.select__options {
+    background: #bf7373;
+}
+
+.select__options:hover {
+    background: #D93F3F;
+}
+
