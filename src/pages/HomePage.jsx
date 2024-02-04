@@ -22,7 +22,7 @@ const handleSubmit = e => {
   return (
     <>
     <div className='pokedex__inf'>
-        <img className='pokedex__logohome' src="./src/assets/img/pokedexlogo.png" alt="Pokedex Logo" />
+        <img className='pokedex__logohome' src="process.env.PUBLIC_URL/img/pokedexlogo.png" alt="Pokedex Logo" />
         <h2 className='pokedex__trainer'>Hi trainer your welcome!</h2>
         <p className='pokedex__welcome'>To start this app, give me your trainer name</p>
         <form className='pokedex__form' onSubmit={handleSubmit}>

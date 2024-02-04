@@ -43,7 +43,7 @@ const [ pokemons, getPokemons, getTypePokemon ] = useFetch(url)
     <header className='pokedex__header-container'>
     <div className='pokedex__header-red'></div>
      <div className='pokedex__header-black'></div>
-     <img className='pokedex__logoheader' src="./src/assets/img/pokedexlogo.png" alt="Pokedex Logo" />
+     <img className='pokedex__logoheader' src="process.env.PUBLIC_URL/img/pokedexlogo.png" alt="Pokedex Logo" />
      <div className='pokedex__header-circlecontainer'>
         <div className='pokedex__header-circleE'>
           <div className='pokedex__header-circleI'></div>
